@@ -1,0 +1,1 @@
+![alt text](https://github.com/horia8n/weathermap/blob/master/CodeSchema.jpg?raw=true)
