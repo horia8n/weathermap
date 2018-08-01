@@ -1,0 +1,299 @@
+
+
+.weather-page {
+    display: block;
+    margin-top: 10px;
+}
+.mainStations{
+    display: block;
+}
+.mainStations .wrapperMapStations{
+    padding:10px 8px;
+    /*margin-top: 3px;*/
+}
+.mainStations .wrapperMapStations #mapdiv {
+    display: block;
+    height: 230px;
+    background-color: #fff;
+    border: 1px solid #666;
+    box-shadow: 0 0 20px #aaa;
+    border-radius: 10px;
+}
+.mainStations .wrapperMapStations #mapdiv .infoBox {
+    pointer-events: none;
+}
+.mainStations .wrapperMapStations #mapdiv .infoBox .weathertempouter {
+    width: 50px !important;
+    height: 52px !important;
+    text-align: center;
+    border: 1px solid #444;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    background-color: rgba(80, 114, 147, 0.9) !important;
+    box-shadow: 3px 3px 10px #888;
+    cursor: pointer;
+}
+.mainStations .wrapperMapStations #mapdiv .infoBox .weathertempouter.selected {
+    background-color: rgba(147, 30, 30, 0.9) !important;
+}
+.mainStations .wrapperMapStations #mapdiv .infoBox .weathertempouter IMG {
+    width: 30px;
+    height: auto;
+}
+.mainStations .wrapperMapStations #mapdiv .infoBox .weathertemp {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    margin: 0 auto 20px;
+}
+.mainStations .wrapperMapStations{
+
+}
+.mainStations .wrapperMapStations .stationsPreviews{
+    display: block;
+    height: 230px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 20px #aaa;
+}
+.mainStations .wrapperMapStations .stationsPreviews table{
+    width: 100%;
+    margin: auto 0;
+}
+.mainStations .wrapperMapStations .stationsPreviews img{
+    width: 28px;
+    height: auto;
+}
+.mainStations .wrapperMapStations .stationsPreviews tbody{
+    width: 100%;
+}
+.mainStations .wrapperMapStations .stationsPreviews tr{
+    width: 100%;
+    color: #5f7f9c;
+    cursor: pointer;
+}
+.mainStations .wrapperMapStations .stationsPreviews tr.selected{
+    color: #fff;
+}
+.mainStations .wrapperMapStations .stationsPreviews td{
+    /*display: inline-block;*/
+    padding: 2px 10px;
+    text-align: left;
+}
+.mainStations .wrapperMapStations .stationsPreviews td{
+    width: auto;
+    padding: 2px 10px;
+}
+.mainStations .wrapperMapStations .stationsPreviews td.name{
+    font-weight: 600;
+}
+.mainStations .wrapperMapStations .stationsPreviews tr.selected td{
+    background-color: rgba(147, 30, 30, 0.9);
+}
+.mainWeather{
+    display: block;
+}
+.mainWeather .pickAStation{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.mainWeather .weather_now{
+    display: block;
+    margin-top: 2px;
+}
+.mainWeather .weather_now .overflowWrapBorder{
+    /*display: table-cell;*/
+    padding: 10px 8px;
+}
+.mainWeather .weather_now .overflowWrapBorder #NowIMG {
+    position: absolute;
+    height: 70%;
+    width: auto;
+    left: 20px;
+    top: 12px;
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv{
+    padding: 10px 30px;
+    box-shadow: 0 0 20px #ddd;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    position: relative;
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv .atribBox{
+    width: 100%;
+    /*height: 10px;*/
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv .atribBox .label_w{
+    width: 50%;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    color: #888;
+    font-size:12px;
+    height:30px;
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv .atribBox .value_w{
+    width: 50%;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    text-align: right;
+    color: #333;
+    font-size:12px;
+    height:30px;
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv .atribBox .value_f{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    height:30px;
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv .atribBox #NowTemp {
+    font-size: 25px;
+    color: #c6bf01;
+    font-weight: bold;
+    /*padding-right: 10px;*/
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv .atribBox #NowFeels {
+    font-size: 22px;
+    color: #facc40;
+    /*padding-right: 10px;*/
+}
+.mainWeather .weather_now .overflowWrapBorder .atribBoxDiv .atribBox #NowCond {
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    text-align: left;
+    /*padding-left: 10px;*/
+}
+.mainWeather .weather_future{
+    display: block;
+    padding: 10px 8px;
+}
+.mainWeather .weather_future .overflowWrapBorder{
+    box-shadow: 0 0 20px #ddd;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 10px;
+}
+.mainWeather .weather_future .overflowWrapBorder .forecastButtons{
+    display: block;
+    padding: 6px 0 0;
+    border-bottom: 1px solid #aaa;
+}
+.mainWeather .weather_future .overflowWrapBorder .forecastButtons .forecastButton{
+    background-color: #eee;
+    padding: 2px 14px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #d0d0d0;
+    cursor: pointer;
+}
+.mainWeather .weather_future .overflowWrapBorder .forecastButtons .forecastButton.selected{
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    border-bottom: 0;
+    color: #444;
+}
+.weather_future_period{
+    display: block;
+}
+.overflowWrap {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -moz-box-shadow: inset 0 0 20px #f8f8f8;
+    -webkit-box-shadow: inset 0 0 20px #f8f8f8;
+    box-shadow: inset 0 0 20px #f8f8f8;
+    border-left: 1px solid #aaa;
+}
+.weather-table {
+    margin-left: 34px;
+    margin-bottom: 14px;
+}
+.weather-table th {
+    text-align: center;
+    padding: 12px 4px 5px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #888;
+    font-weight: 500;
+}
+.weather-table thead tr {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+}
+.weather-table td {
+    padding: 20px 4px 8px;
+    border-top: 1px solid #f4f4f4;
+    text-align: center;
+    font-size: 10px;
+    color: #aaa;
+}
+.weather-table td.weather-td-icon {
+    border: 0;
+    padding: 10px 4px 0;
+    text-align: center;
+}
+.weather-td-icon img {
+    width: 60px;
+    height: auto;
+}
+
+
+.weather_hourly {
+    /*height: 587px;*/
+}
+.weather_hourly .overflowAdjust {
+    margin-left: -32px;
+}
+.weather_hourly .recharts-wrapper {
+    padding-left: 7px;
+}
+
+
+.weather_short .recharts-wrapper {
+    padding-left: 29px;
+}
+.weather_short .weather-table {
+    display: block;
+    margin-left: 0;
+    width: 1080px;
+}
+.weather_short th {
+    width: 200px;
+}
+
+
+.weather_long .overflowAdjust {
+    margin-left: -21px;
+}
+.weather_long .recharts-wrapper {
+    padding-left: 3px;
+}
+.weather_long .weather-table {
+    display: block;
+    margin-left: 21px;
+    width: 1070px;
+}
+
+@media only screen and (max-width: 543px) {
+    .mainWeather .weather_future .overflowWrapBorder .forecastButtons{
+        padding: 6px 0 6px;
+    }
+    .mainWeather .weather_future .overflowWrapBorder .forecastButtons .forecastButton{
+        margin-bottom: -6px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: 1px solid #aaa;
+    }
+}
